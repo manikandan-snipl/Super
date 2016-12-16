@@ -182,11 +182,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member_confirmation.html.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="member_confirmation.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="58" column="75" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="75" />
+            <state relative-caret-position="480">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding>
                 <marker date="1481869647758" expanded="true" signature="4350:7361" ph="{...}" />
                 <marker date="1481869647758" expanded="true" signature="4394:5665" ph="{...}" />
@@ -201,6 +201,16 @@
                 <marker date="1481869647758" expanded="true" signature="7099:7237" ph="//..." />
                 <marker date="1481869647758" expanded="true" signature="7247:7353" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invite_friend.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -233,7 +243,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NimbusAuth" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CommonEngine" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -713,12 +723,12 @@
       <workItem from="1481262416337" duration="3193000" />
       <workItem from="1481776236932" duration="62000" />
       <workItem from="1481860446319" duration="486000" />
-      <workItem from="1481861646044" duration="6040000" />
+      <workItem from="1481861646044" duration="6701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123402000" />
+    <option name="totallyTimeSpent" value="124063000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1213,14 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/assets/javascripts/import_users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1263,8 +1265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="58" column="75" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="75" />
+        <state relative-caret-position="480">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding>
             <marker date="1481869647758" expanded="true" signature="4350:7361" ph="{...}" />
             <marker date="1481869647758" expanded="true" signature="4394:5665" ph="{...}" />
@@ -1279,6 +1281,14 @@
             <marker date="1481869647758" expanded="true" signature="7099:7237" ph="//..." />
             <marker date="1481869647758" expanded="true" signature="7247:7353" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
