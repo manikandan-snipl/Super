@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CommonAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CommonEngine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusAdminEngine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusAuth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusCalender" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusEnterprise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusFaceWeb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusSearchEngine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusSocialEngine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusTestAutomation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NimbusTopicsEngine" vcs="Git" />
+  </component>
+</project>
+

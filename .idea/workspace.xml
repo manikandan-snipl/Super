@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcbd0238-dd8e-45a7-bcf1-baefefa3ef35" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NimbusTestAutomation/features/support/database_cleaner.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/routing/subscribers.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/bin/bundle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/bin/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/bin/rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/application.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/database.mysql.mac.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/database.mysql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/database.postgres.docker.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/database.postgres.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/deploy.example.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NimbusEnterprise/config/environment.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/public/favicon.ico" afterPath="$PROJECT_DIR$/NimbusTestAutomation/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/Gemfile" afterPath="$PROJECT_DIR$/CommonAPI/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/Gemfile.lock" afterPath="$PROJECT_DIR$/CommonAPI/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/app/controllers/cloud/base_api_controller.rb" afterPath="$PROJECT_DIR$/CommonAPI/app/controllers/cloud/base_api_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/app/mailers/cloud_admin_notifier.rb" afterPath="$PROJECT_DIR$/CommonAPI/app/mailers/cloud_admin_notifier.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/config/database.yml" afterPath="$PROJECT_DIR$/CommonAPI/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/config/initializers/api/services/end_points.yml" afterPath="$PROJECT_DIR$/CommonAPI/config/initializers/api/services/end_points.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/config/routes/cloud.rb" afterPath="$PROJECT_DIR$/CommonAPI/config/routes/cloud.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/config/routes/consumer.rb" afterPath="$PROJECT_DIR$/CommonAPI/config/routes/consumer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/config/routes/enterprise.rb" afterPath="$PROJECT_DIR$/CommonAPI/config/routes/enterprise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonAPI/db/schema.rb" afterPath="$PROJECT_DIR$/CommonAPI/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/models/common_engine/invite.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/models/common_engine/invite.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/models/common_engine/user.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/models/common_engine/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/models/user_member_common_methods.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/models/user_member_common_methods.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/client/client_manager.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/client/client_manager.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/group_chat/group_chat_manager.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/group_chat/group_chat_manager.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/user/user_manager.rb" afterPath="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/user/user_manager.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/db/migrate/20160405033156_add_client_solution_user_id_to_tasks_campaigns_list.rb" afterPath="$PROJECT_DIR$/CommonEngine/db/migrate/20160405033156_add_client_solution_user_id_to_tasks_campaigns_list.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonEngine/lib/tasks/tenants.rake" afterPath="$PROJECT_DIR$/CommonEngine/lib/tasks/tenants.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/assets/javascripts/import_users.js" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/assets/javascripts/import_users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/admin_users_controller.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/admin_users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/admins_controller.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/admins_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/application_controller.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/clients_controller.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/clients_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/licenses_controller.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/licenses_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/helpers/nimbus_admin_engine/application_helper.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/helpers/nimbus_admin_engine/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/admin_users/_import_users_form.html.haml" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/admin_users/_import_users_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/shared/_box_user_accordion.html.haml" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/shared/_box_user_accordion.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/shared/common/_auth_token.html.haml" afterPath="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/shared/common/_auth_token.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAdminEngine/config/routes.rb" afterPath="$PROJECT_DIR$/NimbusAdminEngine/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/NimbusAuth/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/passwords_controller.rb" afterPath="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/passwords_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb" afterPath="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/sessions_controller.rb" afterPath="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/application_helper.rb" afterPath="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/common_helper.rb" afterPath="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/common_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/menu_helper.rb" afterPath="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/menu_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/_boot_right_sidebar.html.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/_boot_right_sidebar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/application.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/application.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_admin_header.html.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_admin_header.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_admin_right_sidebar.html.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_admin_right_sidebar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_header.html.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_header.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_right_sidebar.html.haml" afterPath="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_right_sidebar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusAuth/config/routes.rb" afterPath="$PROJECT_DIR$/NimbusAuth/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusCalender/app/assets/javascripts/target_lists.js" afterPath="$PROJECT_DIR$/NimbusCalender/app/assets/javascripts/target_lists.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusCalender/app/controllers/nimbus_calender/target_lists_controller.rb" afterPath="$PROJECT_DIR$/NimbusCalender/app/controllers/nimbus_calender/target_lists_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusCalender/app/helpers/nimbus_calender/target_lists_helper.rb" afterPath="$PROJECT_DIR$/NimbusCalender/app/helpers/nimbus_calender/target_lists_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusCalender/app/views/nimbus_calender/shared/_box_list_accordian_info.html.haml" afterPath="$PROJECT_DIR$/NimbusCalender/app/views/nimbus_calender/shared/_box_list_accordian_info.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusCalender/app/views/nimbus_calender/shared/_box_list_info.html.haml" afterPath="$PROJECT_DIR$/NimbusCalender/app/views/nimbus_calender/shared/_box_list_info.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusCalender/app/views/nimbus_calender/target_lists/index.html.haml" afterPath="$PROJECT_DIR$/NimbusCalender/app/views/nimbus_calender/target_lists/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusEnterprise/Gemfile" afterPath="$PROJECT_DIR$/NimbusEnterprise/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusEnterprise/Gemfile.lock" afterPath="$PROJECT_DIR$/NimbusEnterprise/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusEnterprise/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/NimbusEnterprise/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusEnterprise/app/models/fields/custom_field.rb" afterPath="$PROJECT_DIR$/NimbusEnterprise/app/models/fields/custom_field.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusEnterprise/db/schema.rb" afterPath="$PROJECT_DIR$/NimbusEnterprise/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/Gemfile" afterPath="$PROJECT_DIR$/NimbusFaceWeb/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/NimbusFaceWeb/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/NimbusFaceWeb/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/config/database.yml" afterPath="$PROJECT_DIR$/NimbusFaceWeb/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/config/environments/development.rb" afterPath="$PROJECT_DIR$/NimbusFaceWeb/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/end_points.yml" afterPath="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/end_points.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/services_manager.rb" afterPath="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/services_manager.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/status_codes.rb" afterPath="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/status_codes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusFaceWeb/config/routes.rb" afterPath="$PROJECT_DIR$/NimbusFaceWeb/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusSearchEngine/app/models/list_view_presenter.rb" afterPath="$PROJECT_DIR$/NimbusSearchEngine/app/models/list_view_presenter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusSocialEngine/app/views/nimbus_social_engine/member_user/_profile_short_info.html.haml" afterPath="$PROJECT_DIR$/NimbusSocialEngine/app/views/nimbus_social_engine/member_user/_profile_short_info.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusSocialEngine/app/views/nimbus_social_engine/member_user/followers.js.haml" afterPath="$PROJECT_DIR$/NimbusSocialEngine/app/views/nimbus_social_engine/member_user/followers.js.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/Gemfile" afterPath="$PROJECT_DIR$/NimbusTestAutomation/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/bin/bundle" afterPath="$PROJECT_DIR$/NimbusTestAutomation/bin/bundle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/bin/rails" afterPath="$PROJECT_DIR$/NimbusTestAutomation/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/bin/rake" afterPath="$PROJECT_DIR$/NimbusTestAutomation/bin/rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/bin/spring" afterPath="$PROJECT_DIR$/NimbusTestAutomation/bin/spring" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/application.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/database.yml" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/environments/development.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/environments/test.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/environments/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/common_engine.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/common_engine.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/end_points.yml" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/end_points.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/message_types.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/message_types.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/services_manager.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/services_manager.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/setup_db.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/setup_db.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/status_codes.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/status_codes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/config/routes.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/log/development.log" afterPath="$PROJECT_DIR$/NimbusTestAutomation/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/log/test.log" afterPath="$PROJECT_DIR$/NimbusTestAutomation/log/test.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/public/404.html" afterPath="$PROJECT_DIR$/NimbusTestAutomation/public/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/public/422.html" afterPath="$PROJECT_DIR$/NimbusTestAutomation/public/422.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/public/500.html" afterPath="$PROJECT_DIR$/NimbusTestAutomation/public/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/public/robots.txt" afterPath="$PROJECT_DIR$/NimbusTestAutomation/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admin_groups_controller_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admin_groups_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admin_users_controller_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admin_users_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admins_controller_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admins_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/clients_controller_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/clients_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/licenses_controller_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/licenses_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/client_solutions.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/client_solutions.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/client_solutions_users.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/client_solutions_users.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/clients.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/clients.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/group_chats.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/group_chats.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/solutions.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/solutions.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/users.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/users.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/invite_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/invite_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/user_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/user_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/rails_helper.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/rails_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/routing/nimbus_admin_engine/licenses_routing_spec.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/routing/nimbus_admin_engine/licenses_routing_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/shared/controllers/admin_users_list_examples.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/shared/controllers/admin_users_list_examples.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/support/controller_helpers.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/support/controller_helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NimbusTestAutomation/spec/support/database_cleaner.rb" afterPath="$PROJECT_DIR$/NimbusTestAutomation/spec/support/database_cleaner.rb" />
+    </list>
+    <ignored path="Nimbus.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Nimbus" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="import_users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/assets/javascripts/import_users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="76" column="193" selection-start-line="76" selection-start-column="193" selection-end-line="76" selection-end-column="193" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrations_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="77" column="249" selection-start-line="77" selection-start-column="211" selection-end-line="77" selection-end-column="249" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/admin_users/_form.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="member_confirmation.html.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="58" column="75" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="75" />
+              <folding>
+                <marker date="1481869647758" expanded="true" signature="4350:7361" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="4394:5665" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="4687:4951" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="4964:5136" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="5201:5281" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="5294:5659" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="5705:7357" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="5855:5971" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="6576:6732" ph="//..." />
+                <marker date="1481869647758" expanded="true" signature="6858:7093" ph="{...}" />
+                <marker date="1481869647758" expanded="true" signature="7099:7237" ph="//..." />
+                <marker date="1481869647758" expanded="true" signature="7247:7353" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonAPI/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NimbusAuth" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/clients.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/client_solutions_users.rb" />
+        <option value="$PROJECT_DIR$/NimbusFaceWeb/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/client_solutions.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/solutions.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/factories/users.rb" />
+        <option value="$PROJECT_DIR$/NimbusAuth/config/routes.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/routing/nimbus_admin_engine/licenses_routing_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/config/routes.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/config/routes.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/routing/nimbus_auth_engine/license_routing_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAuth/app/views/nimbus_auth/layouts/marketing_guru/_boot_header.html.haml" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/NimbusAuth/app/helpers/nimbus_auth/application_helper.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/licenses_controller.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/application_controller.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/support/controller_helpers.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/Gemfile" />
+        <option value="$PROJECT_DIR$/NimbusFaceWeb/Gemfile" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/licenses_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/client/client_manager.rb" />
+        <option value="$PROJECT_DIR$/CommonEngine/app/models/common_engine/client_solution_user.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admins_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/end_points.yml" />
+        <option value="$PROJECT_DIR$/NimbusFaceWeb/lib/common.rb" />
+        <option value="$PROJECT_DIR$/CommonEngine/app/models/common_engine/invite.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/admin_groups_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/admin_users_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/admins_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/clients_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/licenses_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/common_engine.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/client_solutions_user_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/client_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/services/common_engine/cloud/base/v1/client/client_manager_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/spec/services/common_engine/cloud/base/v1/invitation/invite_friend_spec.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/config/initializers/api/services/setup_db.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/lib/common.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/setup_db.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/lib/common.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/config/initializers/api/services/common_engine.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/spec/factories/client_solutions_users.rb" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/config/database.yml" />
+        <option value="$PROJECT_DIR$/NimbusTestAutomation/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/NimbusFaceWeb/config/database.yml" />
+        <option value="$PROJECT_DIR$/CommonAPI/config/database.yml" />
+        <option value="$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb" />
+        <option value="$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/admin_users_controller.rb" />
+        <option value="$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml" />
+        <option value="$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/NimbusTargetWeb/app/rtc/node_modules" />
+    <handled-path value="$PROJECT_DIR$/NimbusTextChatEngine/app/rtc/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="43" />
+    <option name="y" value="24" />
+    <option name="width" value="1877" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NimbusFaceWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NimbusFaceWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NimbusAdminEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NimbusAdminEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nimbus_admin_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NimbusAdminEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nimbus_admin_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nimbus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NimbusAdminEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Nimbus_old" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NimbusCalender/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/NimbusSocialEngine/app/views/nimbus_topics_engine/member_user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NimbusTestAutomation/features/support" />
+      <recent name="$PROJECT_DIR$/NimbusFaceWeb" />
+      <recent name="$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/admin_groups" />
+      <recent name="$PROJECT_DIR$/CommonAPI/db/migrate" />
+      <recent name="$PROJECT_DIR$/NimbusCalender/app/models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Ruby.test">
+    <configuration default="false" name="test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Nimbus" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcbd0238-dd8e-45a7-bcf1-baefefa3ef35" name="Default" comment="" />
+      <created>1453695945689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1453695945689</updated>
+      <workItem from="1479806680509" duration="862000" />
+      <workItem from="1480334554914" duration="4423000" />
+      <workItem from="1480393860551" duration="29646000" />
+      <workItem from="1480491070934" duration="2305000" />
+      <workItem from="1480498437631" duration="25565000" />
+      <workItem from="1480653365106" duration="26705000" />
+      <workItem from="1480910129122" duration="18569000" />
+      <workItem from="1481256598697" duration="1619000" />
+      <workItem from="1481258230024" duration="3927000" />
+      <workItem from="1481262416337" duration="3193000" />
+      <workItem from="1481776236932" duration="62000" />
+      <workItem from="1481860446319" duration="486000" />
+      <workItem from="1481861646044" duration="6040000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123402000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="43" y="24" width="1877" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19765583" sideWeight="0.5020964" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49751738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986653" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb</url>
+          <line>76</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb</url>
+          <line>75</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb</url>
+          <line>83</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="46" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CommonAPI/config/initializers/api/services/end_points.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/client/client_manager.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="285" column="35" selection-start-line="285" selection-start-column="35" selection-end-line="285" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonEngine/app/models/common_engine/client_solution_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/admins_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/lib/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonAPI/db/migrate.bkup/migrate/20161108082638_create_client_solutions_users.common_engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonEngine/app/models/common_engine/invite.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonEngine/db/migrate/20150803063854_create_client_solutions_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/admin_groups_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/admin_users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/admins_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/clients_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/controllers/nimbus_admin_engine/licenses_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusEnterprise/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="1105" column="19" selection-start-line="1105" selection-start-column="19" selection-end-line="1105" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/common_engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/client_solutions_user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/spec/models/common_engine/client_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/spec/services/common_engine/cloud/base/v1/client/client_manager_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="300" column="40" selection-start-line="300" selection-start-column="40" selection-end-line="300" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/spec/services/common_engine/cloud/base/v1/invitation/invite_friend_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="45" column="99" selection-start-line="45" selection-start-column="99" selection-end-line="45" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/config/initializers/constants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="77" column="2" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/config/initializers/api/services/setup_db.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/lib/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/config/initializers/api/services/setup_db.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/lib/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/factories/client_solutions_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/spec/dummy/config/initializers/api/services/common_engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/passwords_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAuth/app/controllers/nimbus_auth/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusTestAutomation/spec/controllers/nimbus_admin_engine/licenses_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusEnterprise/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_member/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="83" column="39" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/config/initializers/session_store.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusSocialEngine/app/views/nimbus_social_engine/layouts_with_groups/application.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1454994154000" expanded="true" signature="1037:1400" ph="{...}" />
+            <marker date="1454994154000" expanded="true" signature="1163:1392" ph="{&quot;target&quot;: 'textarea'...}" />
+            <marker date="1454994154000" expanded="true" signature="1299:1384" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="123" column="71" selection-start-line="123" selection-start-column="71" selection-end-line="123" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/config/initializers/api/services/end_points.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonAPI/app/controllers/cloud/api/v1/invitation/invitation_code_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/admin_users/user_import_and_invite.js.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <marker date="1481712448812" expanded="true" signature="141:195" ph="alert(&quot;##{@status[:max_license_limit_error_message] }&quot;)" />
+            <marker date="1481712448812" expanded="true" signature="198:997" ph="- else" />
+            <marker date="1481712448812" expanded="true" signature="209:277" ph="if (confirm(&quot;##{I18n.t(&quot;import.set_auto_assign_license_message&quot;)}&quot;)){" />
+            <marker date="1481712448812" expanded="true" signature="282:290" ph="$.ajax({" />
+            <marker date="1481712448812" expanded="true" signature="295:338" ph="url: &quot;/admin_users/user_import_and_invite&quot;," />
+            <marker date="1481712448812" expanded="true" signature="343:355" ph="type: &quot;GET&quot;," />
+            <marker date="1481712448812" expanded="true" signature="360:379" ph="dataType: &quot;script&quot;," />
+            <marker date="1481712448812" expanded="true" signature="663:983" ph="data: {first_name: &quot;##{params[&quot;first_name&quot;]}&quot;,last_name: &quot;##{params[&quot;last_name&quot;]}&quot;,email:&quot;##{params[&quot;email&quot;]}&quot;, email_to:&quot;##{params[&quot;email_to&quot;]}&quot;,phone_number: &quot;##{params[&quot;phone_number&quot;]}&quot;,license_code: &quot;&quot;,add_user_type:&quot;##{params[&quot;add_user_type&quot;]}&quot;, license_version: &quot;##{params[&quot;license_version&quot;]}&quot;, auto_assign_license: true}" />
+            <marker date="1481712448812" expanded="true" signature="988:991" ph="});" />
+            <marker date="1481712448812" expanded="true" signature="998:9465" ph="- else" />
+            <marker date="1481712448812" expanded="true" signature="1212:1264" ph="if($(&quot;.import_success_alert&quot;).html() == undefined ){" />
+            <marker date="1481712448812" expanded="true" signature="1271:1484" ph="$('##message_area').html(&quot;&lt;div class='alert alert-success alert-dismissable import_success_alert'&gt;&lt;i class='fa fa-check'&gt;&lt;/i&gt;&lt;button type='button' class='close' data-dismiss='alert' aria-hidden='true'&gt;×&lt;/button&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="1499:1504" ph="else{" />
+            <marker date="1481712448812" expanded="true" signature="1511:1558" ph="$('.import_success_alert').find(&quot;b&quot;).text(&quot; &quot;);" />
+            <marker date="1481712448812" expanded="true" signature="1573:1655" ph="$('.import_success_alert').append(&quot;&lt;b&gt; Invite has been sent to the users.. &lt;/b&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="1662:1696" ph="$('.import_success_alert').show();" />
+            <marker date="1481712448812" expanded="true" signature="1703:1832" ph="$(&quot;##invite_user_form&quot;).html(&quot;##{escape_javascript( render(:partial =&gt; &quot;/nimbus_admin_engine/admin_users/invite_users_form&quot; ) )}&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="1839:1906" ph="$(&quot;##jqGrid&quot;).setGridParam({datatype:'json'}).trigger('reloadGrid');" />
+            <marker date="1481712448812" expanded="true" signature="1913:1943" ph="setTimeout(hideTheMSG, 10000);" />
+            <marker date="1481712448812" expanded="true" signature="1950:1972" ph="function hideTheMSG(){" />
+            <marker date="1481712448812" expanded="true" signature="1979:2016" ph="$('.import_success_alert').fadeOut();" />
+            <marker date="1481712448812" expanded="true" signature="2140:2219" ph="- error_msg = @status[:errors_list].map{|data| data[data.keys.first]}.join(&quot;,&quot;)" />
+            <marker date="1481712448812" expanded="true" signature="2228:2250" ph="alert(&quot;##{error_msg}&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="2259:2287" ph="console.log(&quot;##{error_msg}&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="2294:5631" ph="- else" />
+            <marker date="1481712448812" expanded="true" signature="2309:2361" ph="if($(&quot;.import_failure_alert&quot;).html() == undefined ){" />
+            <marker date="1481712448812" expanded="true" signature="2370:2580" ph="$('##message_area').html(&quot;&lt;div class='alert alert-danger alert-dismissable import_failure_alert'&gt;&lt;i class='fa fa-ban'&gt;&lt;/i&gt;&lt;button type='button' class='close' data-dismiss='alert' aria-hidden='true'&gt;×&lt;/button&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="2599:2604" ph="else{" />
+            <marker date="1481712448812" expanded="true" signature="2613:2660" ph="$('.import_failure_alert').find(&quot;b&quot;).text(&quot; &quot;);" />
+            <marker date="1481712448812" expanded="true" signature="2679:2713" ph="$('.import_failure_alert').show();" />
+            <marker date="1481712448812" expanded="true" signature="2722:2738" ph="var message = &quot;&quot;" />
+            <marker date="1481712448812" expanded="true" signature="2747:2854" ph="message += &quot;&lt;b&gt; Invite Record(s) Having Issues..Those records will update shortly.., kindly check it &lt;br/&gt;&quot;" />
+            <marker date="1481712448812" expanded="true" signature="2863:2880" ph="message += &quot;&lt;/b&gt;&quot;" />
+            <marker date="1481712448812" expanded="true" signature="2889:2932" ph="$('.import_failure_alert').append(message);" />
+            <marker date="1481712448812" expanded="true" signature="2941:2975" ph="$('.import_failure_alert').show();" />
+            <marker date="1481712448812" expanded="true" signature="2984:3021" ph="setTimeout(display_error_data, 1500);" />
+            <marker date="1481712448812" expanded="true" signature="3030:3060" ph="function display_error_data(){" />
+            <marker date="1481712448812" expanded="true" signature="3117:3146" ph="- row[&quot;data&quot;][&quot;status&quot;] = &quot;0&quot;" />
+            <marker date="1481712448812" expanded="true" signature="3157:3209" ph="- row[&quot;data&quot;][&quot;send_invite_from_cloud&quot;] = &quot;IMPORTED&quot;" />
+            <marker date="1481712448812" expanded="true" signature="3220:3286" ph="- row[&quot;data&quot;][&quot;send_invite_from_cloud&quot;] = &quot;##{row[row.keys.first]}&quot;" />
+            <marker date="1481712448812" expanded="true" signature="3297:3317" ph="- data = row[&quot;data&quot;]" />
+            <marker date="1481712448812" expanded="true" signature="3381:3791" ph="$(&quot;##jqGrid&quot;).jqGrid('addRowData',&quot;import_##{@status[:errors_list].index(row)+1}&quot;,{&quot;first_name&quot;: &quot;##{data[&quot;first_name&quot;]}&quot;,&quot;last_name&quot;:&quot;##{data[&quot;last_name&quot;]}&quot;,&quot;email&quot;:&quot;##{data[&quot;email&quot;].present? ? data[&quot;email&quot;] : data[&quot;email_to&quot;]}&quot;,&quot;phone_number&quot;:&quot;##{data[&quot;phone_number&quot;]}&quot;,&quot;license_code&quot;:&quot;##{data[&quot;license_code&quot;]}&quot;,&quot;status&quot;: &quot;##{data[&quot;status&quot;]}&quot;,&quot;send_invite_from_cloud&quot;: &quot;##{data[&quot;send_invite_from_cloud&quot;]}&quot;},&quot;first&quot; );" />
+            <marker date="1481712448812" expanded="true" signature="3958:4369" ph="$(&quot;##jqGrid&quot;).jqGrid('addRowData',&quot;import_##{@status[:errors_list].index(row)+1}&quot;,{&quot;first_name&quot;: &quot;##{data[&quot;first_name&quot;]}&quot;,&quot;last_name&quot;:&quot;##{data[&quot;last_name&quot;]}&quot;,&quot;email&quot;:&quot;##{data[&quot;email&quot;].present? ? data[&quot;email&quot;] : data[&quot;email_to&quot;] }&quot;,&quot;phone_number&quot;:&quot;##{data[&quot;phone_number&quot;]}&quot;,&quot;license_code&quot;:&quot;##{data[&quot;license_code&quot;]}&quot;,&quot;status&quot;: &quot;##{data[&quot;status&quot;]}&quot;,&quot;send_invite_from_cloud&quot;: &quot;##{data[&quot;send_invite_from_cloud&quot;]}&quot;},&quot;first&quot; );" />
+            <marker date="1481712448812" expanded="true" signature="4384:4756" ph="- else" />
+            <marker date="1481712448812" expanded="true" signature="4407:4498" ph="a=$(&quot;##jqGrid&quot;).find(&quot;tr[id^='import_']&quot;).find(&quot;td[aria-describedby='jqGrid_license_code']&quot;)" />
+            <marker date="1481712448812" expanded="true" signature="4515:4553" ph="$.each(a, function( index, element ) {" />
+            <marker date="1481712448812" expanded="true" signature="4570:4622" ph="if ($(element).text() == &quot;##{data[&quot;license_code&quot;]}&quot;){" />
+            <marker date="1481712448812" expanded="true" signature="4639:4718" ph="$(element).parent().children().last().text(&quot;##{data[&quot;send_invite_from_cloud&quot;]}&quot;)" />
+            <marker date="1481712448812" expanded="true" signature="4753:4756" ph="});" />
+            <marker date="1481712448812" expanded="true" signature="4769:4903" ph="- else" />
+            <marker date="1481712448812" expanded="true" signature="4790:4903" ph="$(&quot;##jqGrid&quot;).jqGrid('addRowData',&quot;import_##{@status[:errors_list].index(row)+1}&quot;,##{row[&quot;data&quot;].to_json},&quot;first&quot; );" />
+            <marker date="1481712448812" expanded="true" signature="5485:5554" ph="$(&quot;##jqGrid&quot;).find(&quot;tr[id^='import_']&quot;).find(&quot;td&quot;).css(&quot;color&quot;, &quot;red&quot;)" />
+            <marker date="1481712448812" expanded="true" signature="5574:5631" ph="setTimeout( &quot;$('.import_failure_alert').hide();&quot;,15000 );" />
+            <marker date="1481712448812" expanded="true" signature="5699:5751" ph="if($(&quot;.import_success_alert&quot;).html() == undefined ){" />
+            <marker date="1481712448812" expanded="true" signature="5758:5971" ph="$('##message_area').html(&quot;&lt;div class='alert alert-success alert-dismissable import_success_alert'&gt;&lt;i class='fa fa-check'&gt;&lt;/i&gt;&lt;button type='button' class='close' data-dismiss='alert' aria-hidden='true'&gt;×&lt;/button&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="5986:5991" ph="else{" />
+            <marker date="1481712448812" expanded="true" signature="5998:6045" ph="$('.import_success_alert').find(&quot;b&quot;).text(&quot; &quot;);" />
+            <marker date="1481712448812" expanded="true" signature="6060:6174" ph="$('.import_success_alert').append(&quot;&lt;b&gt; Congratulations! You have imported ##{@status[:import_count]} users! &lt;/b&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="6181:6215" ph="$('.import_success_alert').show();" />
+            <marker date="1481712448812" expanded="true" signature="6222:6252" ph="setTimeout(hideTheMSG, 10000);" />
+            <marker date="1481712448812" expanded="true" signature="6259:6281" ph="function hideTheMSG(){" />
+            <marker date="1481712448812" expanded="true" signature="6288:6325" ph="$('.import_success_alert').fadeOut();" />
+            <marker date="1481712448812" expanded="true" signature="6338:6854" ph="- elsif @status!=[] &amp;&amp; @status[:error_count].present?" />
+            <marker date="1481712448812" expanded="true" signature="6398:6450" ph="if($(&quot;.import_failure_alert&quot;).html() == undefined ){" />
+            <marker date="1481712448812" expanded="true" signature="6457:6667" ph="$('##message_area').html(&quot;&lt;div class='alert alert-danger alert-dismissable import_failure_alert'&gt;&lt;i class='fa fa-ban'&gt;&lt;/i&gt;&lt;button type='button' class='close' data-dismiss='alert' aria-hidden='true'&gt;×&lt;/button&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="6682:6687" ph="else{" />
+            <marker date="1481712448812" expanded="true" signature="6694:6741" ph="$('.import_failure_alert').find(&quot;b&quot;).text(&quot; &quot;);" />
+            <marker date="1481712448812" expanded="true" signature="6756:6790" ph="$('.import_failure_alert').show();" />
+            <marker date="1481712448812" expanded="true" signature="6797:6854" ph="setTimeout( &quot;$('.import_failure_alert').hide();&quot;,15000 );" />
+            <marker date="1481712448812" expanded="true" signature="6859:7582" ph="- elsif @status!=[] &amp;&amp;  @status[:max_license_limit_error_message].present?" />
+            <marker date="1481712448812" expanded="true" signature="6940:6998" ph="if($(&quot;.import_failure_alert_count&quot;).html() == undefined ){" />
+            <marker date="1481712448812" expanded="true" signature="7005:7226" ph="$('##message_area').html(&quot;&lt;div class='alert alert-warning alert-dismissable import_failure_alert_count'&gt;&lt;i class='fa fa-warning'&gt;&lt;/i&gt;&lt;button type='button' class='close' data-dismiss='alert' aria-hidden='true'&gt;×&lt;/button&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="7241:7246" ph="else{" />
+            <marker date="1481712448812" expanded="true" signature="7253:7306" ph="$('.import_failure_alert_count').find(&quot;b&quot;).text(&quot; &quot;);" />
+            <marker date="1481712448812" expanded="true" signature="7321:7361" ph="$('.import_failure_alert_count').show();" />
+            <marker date="1481712448812" expanded="true" signature="7368:7465" ph="$('.import_failure_alert_count').append(&quot;&lt;b&gt; ##{@status[:max_license_limit_error_message]} &lt;/b&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="7472:7512" ph="$('.import_failure_alert_count').show();" />
+            <marker date="1481712448812" expanded="true" signature="7519:7582" ph="setTimeout( &quot;$('.import_failure_alert_count').hide();&quot;,15000 );" />
+            <marker date="1481712448812" expanded="true" signature="7588:7621" ph="var table = $('##imported_users');" />
+            <marker date="1481712448812" expanded="true" signature="8710:8757" ph="$(&quot;##btn_invite_user&quot;).attr(&quot;disabled&quot;, &quot;true&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="8761:9465" ph="- if !@status.blank? &amp;&amp; @status[:max_license_limit_error_message].present?" />
+            <marker date="1481712448812" expanded="true" signature="8840:8898" ph="if($(&quot;.import_failure_alert_count&quot;).html() == undefined ){" />
+            <marker date="1481712448812" expanded="true" signature="8903:9124" ph="$('##message_area').html(&quot;&lt;div class='alert alert-warning alert-dismissable import_failure_alert_count'&gt;&lt;i class='fa fa-warning'&gt;&lt;/i&gt;&lt;button type='button' class='close' data-dismiss='alert' aria-hidden='true'&gt;×&lt;/button&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="9135:9140" ph="else{" />
+            <marker date="1481712448812" expanded="true" signature="9145:9198" ph="$('.import_failure_alert_count').find(&quot;b&quot;).text(&quot; &quot;);" />
+            <marker date="1481712448812" expanded="true" signature="9209:9249" ph="$('.import_failure_alert_count').show();" />
+            <marker date="1481712448812" expanded="true" signature="9254:9351" ph="$('.import_failure_alert_count').append(&quot;&lt;b&gt; ##{@status[:max_license_limit_error_message]} &lt;/b&gt;&quot;);" />
+            <marker date="1481712448812" expanded="true" signature="9356:9396" ph="$('.import_failure_alert_count').show();" />
+            <marker date="1481712448812" expanded="true" signature="9401:9465" ph="setTimeout( &quot;$('.import_failure_alert_count').hide();&quot;,15000 );" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/controllers/nimbus_admin_engine/admin_users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="147" column="61" selection-start-line="147" selection-start-column="61" selection-end-line="147" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonEngine/app/services/cloud/base/v1/invitation/invite_friend.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/assets/javascripts/import_users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="76" column="193" selection-start-line="76" selection-start-column="193" selection-end-line="76" selection-end-column="193" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonAPI/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusFaceWeb/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAdminEngine/app/views/nimbus_admin_engine/admin_users/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAuth/app/controllers/devise_user/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="77" column="249" selection-start-line="77" selection-start-column="211" selection-end-line="77" selection-end-column="249" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NimbusAuth/app/views/devise_user/registrations/member_confirmation.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="58" column="75" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="75" />
+          <folding>
+            <marker date="1481869647758" expanded="true" signature="4350:7361" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="4394:5665" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="4687:4951" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="4964:5136" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="5201:5281" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="5294:5659" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="5705:7357" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="5855:5971" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="6576:6732" ph="//..." />
+            <marker date="1481869647758" expanded="true" signature="6858:7093" ph="{...}" />
+            <marker date="1481869647758" expanded="true" signature="7099:7237" ph="//..." />
+            <marker date="1481869647758" expanded="true" signature="7247:7353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
